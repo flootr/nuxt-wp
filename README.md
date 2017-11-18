@@ -7,7 +7,7 @@
 You need to provide a `.env` file containing the following configuration parameters:
 
 ```
-WP_API=https://public-api.wordpress.com/rest/v1.1/
+WP_API=https://public-api.wordpress.com/rest/v1.1
 WP_SITE=<your-wordpress.com-site>
 ```
 
@@ -30,6 +30,6 @@ $ npm run generate
 
 ## Notice
 
-This project is inspired by [postlight/headless-wp-starter](https://github.com/postlight/headless-wp-starter/tree/master/frontend). Except it doesn't ship with a WordPress backend but leverages the WordPress.com REST API for convenience.
+This project is inspired by [postlight/headless-wp-starter](https://github.com/postlight/headless-wp-starter). Except it doesn't ship with a WordPress backend but leverages the WordPress.com REST API for convenience.
 
 **Check it out on https://nuxt-wp.now.sh**

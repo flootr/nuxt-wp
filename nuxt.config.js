@@ -29,6 +29,6 @@ module.exports = {
     '~/plugins/fetch.js'
   ],
   env: {
-    SITES_API_URI: `${process.env.WP_API}sites/${process.env.WP_SITE}`
+    SITES_API_URI: `${process.env.WP_API}/sites/${process.env.WP_SITE}`
   }
 }
